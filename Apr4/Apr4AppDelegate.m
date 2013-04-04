@@ -8,7 +8,6 @@
 
 #import "Apr4AppDelegate.h"
 #import "Apr4ViewController.h"
-
 #import "GarbageManView.h"
 #import "MemoryView.h"
 
@@ -24,13 +23,13 @@
 		 
 		 [[Apr4ViewController alloc]
 		  initWithTitle: @"Memory Game"
-		  badge: @"tj470"
+		  badge: NULL
 		  view: [[MemoryView alloc] initWithFrame: f]
           ],
 		 
 		 [[Apr4ViewController alloc]
 		  initWithTitle: @"The Garbage Man"
-		  badge: @"sn1045"
+		  badge: NULL
 		  view: [[GarbageManView alloc] initWithFrame: f]
 		  ],
 		 

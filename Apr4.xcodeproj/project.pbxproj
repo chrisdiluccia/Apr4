@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		39393E33170D3B3F00FDFF79 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39393E32170D3B3F00FDFF79 /* CoreAudio.framework */; };
 		39E46DD8170D1C7400E720DD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39E46DD7170D1C7400E720DD /* UIKit.framework */; };
 		39E46DDA170D1C7400E720DD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39E46DD9170D1C7400E720DD /* Foundation.framework */; };
 		39E46DDC170D1C7400E720DD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39E46DDB170D1C7400E720DD /* CoreGraphics.framework */; };
@@ -44,6 +45,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		39393E32170D3B3F00FDFF79 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
 		39E46DD4170D1C7400E720DD /* Apr4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Apr4.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		39E46DD7170D1C7400E720DD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		39E46DD9170D1C7400E720DD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -101,6 +103,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39393E33170D3B3F00FDFF79 /* CoreAudio.framework in Frameworks */,
 				39E46DD8170D1C7400E720DD /* UIKit.framework in Frameworks */,
 				39E46DDA170D1C7400E720DD /* Foundation.framework in Frameworks */,
 				39E46DDC170D1C7400E720DD /* CoreGraphics.framework in Frameworks */,
@@ -113,6 +116,7 @@
 		39E46DCB170D1C7400E720DD = {
 			isa = PBXGroup;
 			children = (
+				39393E32170D3B3F00FDFF79 /* CoreAudio.framework */,
 				39E46DDD170D1C7400E720DD /* Apr4 */,
 				39E46DD6170D1C7400E720DD /* Frameworks */,
 				39E46DD5170D1C7400E720DD /* Products */,
@@ -405,6 +409,7 @@
 				39E46DF3170D1C7400E720DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
