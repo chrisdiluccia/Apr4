@@ -7,6 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		39045678170DEF6A0031F28E /* Apple.m in Sources */ = {isa = PBXBuildFile; fileRef = 39045661170DEF6A0031F28E /* Apple.m */; };
+		39045679170DEF6A0031F28E /* Apr4ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39045663170DEF6A0031F28E /* Apr4ViewController.m */; };
+		3904567A170DEF6A0031F28E /* Dylan.m in Sources */ = {isa = PBXBuildFile; fileRef = 39045665170DEF6A0031F28E /* Dylan.m */; };
+		3904567B170DEF6A0031F28E /* Frog.m in Sources */ = {isa = PBXBuildFile; fileRef = 39045667170DEF6A0031F28E /* Frog.m */; };
+		3904567C170DEF6A0031F28E /* FullCan.m in Sources */ = {isa = PBXBuildFile; fileRef = 39045669170DEF6A0031F28E /* FullCan.m */; };
+		3904567D170DEF6A0031F28E /* GarbageManView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3904566B170DEF6A0031F28E /* GarbageManView.m */; };
+		3904567E170DEF6A0031F28E /* Hidden.m in Sources */ = {isa = PBXBuildFile; fileRef = 3904566D170DEF6A0031F28E /* Hidden.m */; };
+		3904567F170DEF6A0031F28E /* Hippo.m in Sources */ = {isa = PBXBuildFile; fileRef = 3904566F170DEF6A0031F28E /* Hippo.m */; };
+		39045680170DEF6A0031F28E /* Lady.m in Sources */ = {isa = PBXBuildFile; fileRef = 39045671170DEF6A0031F28E /* Lady.m */; };
+		39045681170DEF6A0031F28E /* MemoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 39045673170DEF6A0031F28E /* MemoryView.m */; };
+		39045682170DEF6A0031F28E /* PieceOfGarbage.m in Sources */ = {isa = PBXBuildFile; fileRef = 39045675170DEF6A0031F28E /* PieceOfGarbage.m */; };
+		39045683170DEF6A0031F28E /* TrashCan.m in Sources */ = {isa = PBXBuildFile; fileRef = 39045677170DEF6A0031F28E /* TrashCan.m */; };
+		39045690170DEF920031F28E /* apple.png in Resources */ = {isa = PBXBuildFile; fileRef = 39045684170DEF920031F28E /* apple.png */; };
+		39045691170DEF920031F28E /* can.png in Resources */ = {isa = PBXBuildFile; fileRef = 39045685170DEF920031F28E /* can.png */; };
+		39045692170DEF920031F28E /* dylan.png in Resources */ = {isa = PBXBuildFile; fileRef = 39045686170DEF920031F28E /* dylan.png */; };
+		39045693170DEF920031F28E /* emptycan.png in Resources */ = {isa = PBXBuildFile; fileRef = 39045687170DEF920031F28E /* emptycan.png */; };
+		39045694170DEF920031F28E /* entertainer.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 39045688170DEF920031F28E /* entertainer.m4a */; };
+		39045695170DEF920031F28E /* frog.png in Resources */ = {isa = PBXBuildFile; fileRef = 39045689170DEF920031F28E /* frog.png */; };
+		39045696170DEF920031F28E /* fullcan.png in Resources */ = {isa = PBXBuildFile; fileRef = 3904568A170DEF920031F28E /* fullcan.png */; };
+		39045697170DEF920031F28E /* hidden.png in Resources */ = {isa = PBXBuildFile; fileRef = 3904568B170DEF920031F28E /* hidden.png */; };
+		39045698170DEF920031F28E /* hiddenBadge.png in Resources */ = {isa = PBXBuildFile; fileRef = 3904568C170DEF920031F28E /* hiddenBadge.png */; };
+		39045699170DEF920031F28E /* hippo.png in Resources */ = {isa = PBXBuildFile; fileRef = 3904568D170DEF920031F28E /* hippo.png */; };
+		3904569A170DEF920031F28E /* lady.png in Resources */ = {isa = PBXBuildFile; fileRef = 3904568E170DEF920031F28E /* lady.png */; };
+		3904569B170DEF920031F28E /* trash.png in Resources */ = {isa = PBXBuildFile; fileRef = 3904568F170DEF920031F28E /* trash.png */; };
 		39393E33170D3B3F00FDFF79 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39393E32170D3B3F00FDFF79 /* CoreAudio.framework */; };
 		39E46DD8170D1C7400E720DD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39E46DD7170D1C7400E720DD /* UIKit.framework */; };
 		39E46DDA170D1C7400E720DD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39E46DD9170D1C7400E720DD /* Foundation.framework */; };
@@ -17,34 +41,45 @@
 		39E46DEA170D1C7400E720DD /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 39E46DE9170D1C7400E720DD /* Default.png */; };
 		39E46DEC170D1C7400E720DD /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 39E46DEB170D1C7400E720DD /* Default@2x.png */; };
 		39E46DEE170D1C7400E720DD /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 39E46DED170D1C7400E720DD /* Default-568h@2x.png */; };
-		39E46E18170D1CAC00E720DD /* Apple.m in Sources */ = {isa = PBXBuildFile; fileRef = 39E46DF5170D1CAC00E720DD /* Apple.m */; };
-		39E46E19170D1CAC00E720DD /* Dylan.m in Sources */ = {isa = PBXBuildFile; fileRef = 39E46DF7170D1CAC00E720DD /* Dylan.m */; };
-		39E46E1A170D1CAC00E720DD /* Frog.m in Sources */ = {isa = PBXBuildFile; fileRef = 39E46DF9170D1CAC00E720DD /* Frog.m */; };
-		39E46E1B170D1CAC00E720DD /* Hippo.m in Sources */ = {isa = PBXBuildFile; fileRef = 39E46DFB170D1CAC00E720DD /* Hippo.m */; };
-		39E46E1C170D1CAC00E720DD /* Lady.m in Sources */ = {isa = PBXBuildFile; fileRef = 39E46DFD170D1CAC00E720DD /* Lady.m */; };
-		39E46E1D170D1CAC00E720DD /* apple.png in Resources */ = {isa = PBXBuildFile; fileRef = 39E46DFF170D1CAC00E720DD /* apple.png */; };
-		39E46E21170D1CAC00E720DD /* dylan.png in Resources */ = {isa = PBXBuildFile; fileRef = 39E46E03170D1CAC00E720DD /* dylan.png */; };
-		39E46E23170D1CAC00E720DD /* frog.png in Resources */ = {isa = PBXBuildFile; fileRef = 39E46E06170D1CAC00E720DD /* frog.png */; };
-		39E46E24170D1CAC00E720DD /* Hidden.m in Sources */ = {isa = PBXBuildFile; fileRef = 39E46E08170D1CAC00E720DD /* Hidden.m */; };
-		39E46E25170D1CAC00E720DD /* hidden.png in Resources */ = {isa = PBXBuildFile; fileRef = 39E46E09170D1CAC00E720DD /* hidden.png */; };
-		39E46E26170D1CAC00E720DD /* hippo.png in Resources */ = {isa = PBXBuildFile; fileRef = 39E46E0A170D1CAC00E720DD /* hippo.png */; };
-		39E46E27170D1CAC00E720DD /* lady.png in Resources */ = {isa = PBXBuildFile; fileRef = 39E46E0B170D1CAC00E720DD /* lady.png */; };
-		39E46E28170D1CAC00E720DD /* loris.png in Resources */ = {isa = PBXBuildFile; fileRef = 39E46E0C170D1CAC00E720DD /* loris.png */; };
-		39E46E2C170D1CAC00E720DD /* milayawn.png in Resources */ = {isa = PBXBuildFile; fileRef = 39E46E12170D1CAC00E720DD /* milayawn.png */; };
-		39E46E48170D1DBB00E720DD /* can.png in Resources */ = {isa = PBXBuildFile; fileRef = 39E46E31170D1DBB00E720DD /* can.png */; };
-		39E46E4C170D1DBB00E720DD /* emptycan.png in Resources */ = {isa = PBXBuildFile; fileRef = 39E46E35170D1DBB00E720DD /* emptycan.png */; };
-		39E46E4D170D1DBB00E720DD /* entertainer.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 39E46E36170D1DBB00E720DD /* entertainer.m4a */; };
-		39E46E4E170D1DBB00E720DD /* FullCan.m in Sources */ = {isa = PBXBuildFile; fileRef = 39E46E38170D1DBB00E720DD /* FullCan.m */; };
-		39E46E4F170D1DBB00E720DD /* fullcan.png in Resources */ = {isa = PBXBuildFile; fileRef = 39E46E39170D1DBB00E720DD /* fullcan.png */; };
-		39E46E55170D1DBB00E720DD /* PieceOfGarbage.m in Sources */ = {isa = PBXBuildFile; fileRef = 39E46E42170D1DBB00E720DD /* PieceOfGarbage.m */; };
-		39E46E56170D1DBB00E720DD /* trash.png in Resources */ = {isa = PBXBuildFile; fileRef = 39E46E43170D1DBB00E720DD /* trash.png */; };
-		39E46E57170D1DBB00E720DD /* TrashCan.m in Sources */ = {isa = PBXBuildFile; fileRef = 39E46E45170D1DBB00E720DD /* TrashCan.m */; };
-		39E46E5B170D1E8D00E720DD /* MemoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 39E46E5A170D1E8D00E720DD /* MemoryView.m */; };
-		39E46E5E170D1F2E00E720DD /* GarbageManView.m in Sources */ = {isa = PBXBuildFile; fileRef = 39E46E5D170D1F2E00E720DD /* GarbageManView.m */; };
-		39E46E64170D211200E720DD /* Apr4ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39E46E63170D211200E720DD /* Apr4ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		39045660170DEF6A0031F28E /* Apple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Apple.h; sourceTree = "<group>"; };
+		39045661170DEF6A0031F28E /* Apple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Apple.m; sourceTree = "<group>"; };
+		39045662170DEF6A0031F28E /* Apr4ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Apr4ViewController.h; sourceTree = "<group>"; };
+		39045663170DEF6A0031F28E /* Apr4ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Apr4ViewController.m; sourceTree = "<group>"; };
+		39045664170DEF6A0031F28E /* Dylan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dylan.h; sourceTree = "<group>"; };
+		39045665170DEF6A0031F28E /* Dylan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dylan.m; sourceTree = "<group>"; };
+		39045666170DEF6A0031F28E /* Frog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Frog.h; sourceTree = "<group>"; };
+		39045667170DEF6A0031F28E /* Frog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Frog.m; sourceTree = "<group>"; };
+		39045668170DEF6A0031F28E /* FullCan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FullCan.h; sourceTree = "<group>"; };
+		39045669170DEF6A0031F28E /* FullCan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FullCan.m; sourceTree = "<group>"; };
+		3904566A170DEF6A0031F28E /* GarbageManView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GarbageManView.h; sourceTree = "<group>"; };
+		3904566B170DEF6A0031F28E /* GarbageManView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GarbageManView.m; sourceTree = "<group>"; };
+		3904566C170DEF6A0031F28E /* Hidden.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hidden.h; sourceTree = "<group>"; };
+		3904566D170DEF6A0031F28E /* Hidden.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Hidden.m; sourceTree = "<group>"; };
+		3904566E170DEF6A0031F28E /* Hippo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hippo.h; sourceTree = "<group>"; };
+		3904566F170DEF6A0031F28E /* Hippo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Hippo.m; sourceTree = "<group>"; };
+		39045670170DEF6A0031F28E /* Lady.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lady.h; sourceTree = "<group>"; };
+		39045671170DEF6A0031F28E /* Lady.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Lady.m; sourceTree = "<group>"; };
+		39045672170DEF6A0031F28E /* MemoryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemoryView.h; sourceTree = "<group>"; };
+		39045673170DEF6A0031F28E /* MemoryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MemoryView.m; sourceTree = "<group>"; };
+		39045674170DEF6A0031F28E /* PieceOfGarbage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PieceOfGarbage.h; sourceTree = "<group>"; };
+		39045675170DEF6A0031F28E /* PieceOfGarbage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PieceOfGarbage.m; sourceTree = "<group>"; };
+		39045676170DEF6A0031F28E /* TrashCan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrashCan.h; sourceTree = "<group>"; };
+		39045677170DEF6A0031F28E /* TrashCan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrashCan.m; sourceTree = "<group>"; };
+		39045684170DEF920031F28E /* apple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = apple.png; sourceTree = "<group>"; };
+		39045685170DEF920031F28E /* can.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = can.png; sourceTree = "<group>"; };
+		39045686170DEF920031F28E /* dylan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dylan.png; sourceTree = "<group>"; };
+		39045687170DEF920031F28E /* emptycan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emptycan.png; sourceTree = "<group>"; };
+		39045688170DEF920031F28E /* entertainer.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = entertainer.m4a; sourceTree = "<group>"; };
+		39045689170DEF920031F28E /* frog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frog.png; sourceTree = "<group>"; };
+		3904568A170DEF920031F28E /* fullcan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fullcan.png; sourceTree = "<group>"; };
+		3904568B170DEF920031F28E /* hidden.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hidden.png; sourceTree = "<group>"; };
+		3904568C170DEF920031F28E /* hiddenBadge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hiddenBadge.png; sourceTree = "<group>"; };
+		3904568D170DEF920031F28E /* hippo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hippo.png; sourceTree = "<group>"; };
+		3904568E170DEF920031F28E /* lady.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lady.png; sourceTree = "<group>"; };
+		3904568F170DEF920031F28E /* trash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trash.png; sourceTree = "<group>"; };
 		39393E32170D3B3F00FDFF79 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
 		39E46DD4170D1C7400E720DD /* Apr4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Apr4.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		39E46DD7170D1C7400E720DD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -59,43 +94,6 @@
 		39E46DE9170D1C7400E720DD /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		39E46DEB170D1C7400E720DD /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		39E46DED170D1C7400E720DD /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		39E46DF4170D1CAC00E720DD /* Apple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Apple.h; path = ../../Mar14/Apple.h; sourceTree = "<group>"; };
-		39E46DF5170D1CAC00E720DD /* Apple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Apple.m; path = ../../Mar14/Apple.m; sourceTree = "<group>"; };
-		39E46DF6170D1CAC00E720DD /* Dylan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Dylan.h; path = ../../Mar14/Dylan.h; sourceTree = "<group>"; };
-		39E46DF7170D1CAC00E720DD /* Dylan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Dylan.m; path = ../../Mar14/Dylan.m; sourceTree = "<group>"; };
-		39E46DF8170D1CAC00E720DD /* Frog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Frog.h; path = ../../Mar14/Frog.h; sourceTree = "<group>"; };
-		39E46DF9170D1CAC00E720DD /* Frog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Frog.m; path = ../../Mar14/Frog.m; sourceTree = "<group>"; };
-		39E46DFA170D1CAC00E720DD /* Hippo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Hippo.h; path = ../../Mar14/Hippo.h; sourceTree = "<group>"; };
-		39E46DFB170D1CAC00E720DD /* Hippo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Hippo.m; path = ../../Mar14/Hippo.m; sourceTree = "<group>"; };
-		39E46DFC170D1CAC00E720DD /* Lady.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Lady.h; path = ../../Mar14/Lady.h; sourceTree = "<group>"; };
-		39E46DFD170D1CAC00E720DD /* Lady.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Lady.m; path = ../../Mar14/Lady.m; sourceTree = "<group>"; };
-		39E46DFF170D1CAC00E720DD /* apple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = apple.png; path = ../../Mar14/Mar14/apple.png; sourceTree = "<group>"; };
-		39E46E03170D1CAC00E720DD /* dylan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dylan.png; path = ../../Mar14/Mar14/dylan.png; sourceTree = "<group>"; };
-		39E46E06170D1CAC00E720DD /* frog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = frog.png; path = ../../Mar14/Mar14/frog.png; sourceTree = "<group>"; };
-		39E46E07170D1CAC00E720DD /* Hidden.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Hidden.h; path = ../../Mar14/Mar14/Hidden.h; sourceTree = "<group>"; };
-		39E46E08170D1CAC00E720DD /* Hidden.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Hidden.m; path = ../../Mar14/Mar14/Hidden.m; sourceTree = "<group>"; };
-		39E46E09170D1CAC00E720DD /* hidden.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hidden.png; path = ../../Mar14/Mar14/hidden.png; sourceTree = "<group>"; };
-		39E46E0A170D1CAC00E720DD /* hippo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hippo.png; path = ../../Mar14/Mar14/hippo.png; sourceTree = "<group>"; };
-		39E46E0B170D1CAC00E720DD /* lady.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = lady.png; path = ../../Mar14/Mar14/lady.png; sourceTree = "<group>"; };
-		39E46E0C170D1CAC00E720DD /* loris.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = loris.png; path = ../../Mar14/Mar14/loris.png; sourceTree = "<group>"; };
-		39E46E12170D1CAC00E720DD /* milayawn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = milayawn.png; path = ../../Mar14/Mar14/milayawn.png; sourceTree = "<group>"; };
-		39E46E31170D1DBB00E720DD /* can.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = can.png; path = ../../Mar7/Mar7/can.png; sourceTree = "<group>"; };
-		39E46E35170D1DBB00E720DD /* emptycan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = emptycan.png; path = ../../Mar7/Mar7/emptycan.png; sourceTree = "<group>"; };
-		39E46E36170D1DBB00E720DD /* entertainer.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = entertainer.m4a; path = ../../Mar7/Mar7/entertainer.m4a; sourceTree = "<group>"; };
-		39E46E37170D1DBB00E720DD /* FullCan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FullCan.h; path = ../../Mar7/Mar7/FullCan.h; sourceTree = "<group>"; };
-		39E46E38170D1DBB00E720DD /* FullCan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FullCan.m; path = ../../Mar7/Mar7/FullCan.m; sourceTree = "<group>"; };
-		39E46E39170D1DBB00E720DD /* fullcan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fullcan.png; path = ../../Mar7/Mar7/fullcan.png; sourceTree = "<group>"; };
-		39E46E41170D1DBB00E720DD /* PieceOfGarbage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PieceOfGarbage.h; path = ../../Mar7/Mar7/PieceOfGarbage.h; sourceTree = "<group>"; };
-		39E46E42170D1DBB00E720DD /* PieceOfGarbage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PieceOfGarbage.m; path = ../../Mar7/Mar7/PieceOfGarbage.m; sourceTree = "<group>"; };
-		39E46E43170D1DBB00E720DD /* trash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = trash.png; path = ../../Mar7/Mar7/trash.png; sourceTree = "<group>"; };
-		39E46E44170D1DBB00E720DD /* TrashCan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TrashCan.h; path = ../../Mar7/Mar7/TrashCan.h; sourceTree = "<group>"; };
-		39E46E45170D1DBB00E720DD /* TrashCan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TrashCan.m; path = ../../Mar7/Mar7/TrashCan.m; sourceTree = "<group>"; };
-		39E46E59170D1E8D00E720DD /* MemoryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MemoryView.h; path = ../../Mar14/MemoryView.h; sourceTree = "<group>"; };
-		39E46E5A170D1E8D00E720DD /* MemoryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MemoryView.m; path = ../../Mar14/MemoryView.m; sourceTree = "<group>"; };
-		39E46E5C170D1F2E00E720DD /* GarbageManView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GarbageManView.h; path = ../../Mar7/Mar7/GarbageManView.h; sourceTree = "<group>"; };
-		39E46E5D170D1F2E00E720DD /* GarbageManView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GarbageManView.m; path = ../../Mar7/Mar7/GarbageManView.m; sourceTree = "<group>"; };
-		39E46E62170D211200E720DD /* Apr4ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Apr4ViewController.h; sourceTree = SOURCE_ROOT; };
-		39E46E63170D211200E720DD /* Apr4ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Apr4ViewController.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,32 +142,32 @@
 		39E46DDD170D1C7400E720DD /* Apr4 */ = {
 			isa = PBXGroup;
 			children = (
+				39045660170DEF6A0031F28E /* Apple.h */,
+				39045661170DEF6A0031F28E /* Apple.m */,
+				39045662170DEF6A0031F28E /* Apr4ViewController.h */,
+				39045663170DEF6A0031F28E /* Apr4ViewController.m */,
+				39045664170DEF6A0031F28E /* Dylan.h */,
+				39045665170DEF6A0031F28E /* Dylan.m */,
+				39045666170DEF6A0031F28E /* Frog.h */,
+				39045667170DEF6A0031F28E /* Frog.m */,
+				39045668170DEF6A0031F28E /* FullCan.h */,
+				39045669170DEF6A0031F28E /* FullCan.m */,
+				3904566A170DEF6A0031F28E /* GarbageManView.h */,
+				3904566B170DEF6A0031F28E /* GarbageManView.m */,
+				3904566C170DEF6A0031F28E /* Hidden.h */,
+				3904566D170DEF6A0031F28E /* Hidden.m */,
+				3904566E170DEF6A0031F28E /* Hippo.h */,
+				3904566F170DEF6A0031F28E /* Hippo.m */,
+				39045670170DEF6A0031F28E /* Lady.h */,
+				39045671170DEF6A0031F28E /* Lady.m */,
+				39045672170DEF6A0031F28E /* MemoryView.h */,
+				39045673170DEF6A0031F28E /* MemoryView.m */,
+				39045674170DEF6A0031F28E /* PieceOfGarbage.h */,
+				39045675170DEF6A0031F28E /* PieceOfGarbage.m */,
+				39045676170DEF6A0031F28E /* TrashCan.h */,
+				39045677170DEF6A0031F28E /* TrashCan.m */,
 				39E46DE6170D1C7400E720DD /* Apr4AppDelegate.h */,
 				39E46DE7170D1C7400E720DD /* Apr4AppDelegate.m */,
-				39E46E62170D211200E720DD /* Apr4ViewController.h */,
-				39E46E63170D211200E720DD /* Apr4ViewController.m */,
-				39E46E5C170D1F2E00E720DD /* GarbageManView.h */,
-				39E46E5D170D1F2E00E720DD /* GarbageManView.m */,
-				39E46E59170D1E8D00E720DD /* MemoryView.h */,
-				39E46E5A170D1E8D00E720DD /* MemoryView.m */,
-				39E46E37170D1DBB00E720DD /* FullCan.h */,
-				39E46E38170D1DBB00E720DD /* FullCan.m */,
-				39E46E41170D1DBB00E720DD /* PieceOfGarbage.h */,
-				39E46E42170D1DBB00E720DD /* PieceOfGarbage.m */,
-				39E46E44170D1DBB00E720DD /* TrashCan.h */,
-				39E46E45170D1DBB00E720DD /* TrashCan.m */,
-				39E46DF4170D1CAC00E720DD /* Apple.h */,
-				39E46DF5170D1CAC00E720DD /* Apple.m */,
-				39E46DF6170D1CAC00E720DD /* Dylan.h */,
-				39E46DF7170D1CAC00E720DD /* Dylan.m */,
-				39E46DF8170D1CAC00E720DD /* Frog.h */,
-				39E46DF9170D1CAC00E720DD /* Frog.m */,
-				39E46DFA170D1CAC00E720DD /* Hippo.h */,
-				39E46DFB170D1CAC00E720DD /* Hippo.m */,
-				39E46DFC170D1CAC00E720DD /* Lady.h */,
-				39E46DFD170D1CAC00E720DD /* Lady.m */,
-				39E46E07170D1CAC00E720DD /* Hidden.h */,
-				39E46E08170D1CAC00E720DD /* Hidden.m */,
 				39E46DDE170D1C7400E720DD /* Supporting Files */,
 			);
 			path = Apr4;
@@ -178,11 +176,18 @@
 		39E46DDE170D1C7400E720DD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				39E46E39170D1DBB00E720DD /* fullcan.png */,
-				39E46E31170D1DBB00E720DD /* can.png */,
-				39E46E43170D1DBB00E720DD /* trash.png */,
-				39E46E35170D1DBB00E720DD /* emptycan.png */,
-				39E46E36170D1DBB00E720DD /* entertainer.m4a */,
+				39045684170DEF920031F28E /* apple.png */,
+				39045685170DEF920031F28E /* can.png */,
+				39045686170DEF920031F28E /* dylan.png */,
+				39045687170DEF920031F28E /* emptycan.png */,
+				39045688170DEF920031F28E /* entertainer.m4a */,
+				39045689170DEF920031F28E /* frog.png */,
+				3904568A170DEF920031F28E /* fullcan.png */,
+				3904568B170DEF920031F28E /* hidden.png */,
+				3904568C170DEF920031F28E /* hiddenBadge.png */,
+				3904568D170DEF920031F28E /* hippo.png */,
+				3904568E170DEF920031F28E /* lady.png */,
+				3904568F170DEF920031F28E /* trash.png */,
 				39E46DDF170D1C7400E720DD /* Apr4-Info.plist */,
 				39E46DE0170D1C7400E720DD /* InfoPlist.strings */,
 				39E46DE3170D1C7400E720DD /* main.m */,
@@ -190,14 +195,6 @@
 				39E46DE9170D1C7400E720DD /* Default.png */,
 				39E46DEB170D1C7400E720DD /* Default@2x.png */,
 				39E46DED170D1C7400E720DD /* Default-568h@2x.png */,
-				39E46DFF170D1CAC00E720DD /* apple.png */,
-				39E46E03170D1CAC00E720DD /* dylan.png */,
-				39E46E06170D1CAC00E720DD /* frog.png */,
-				39E46E09170D1CAC00E720DD /* hidden.png */,
-				39E46E0A170D1CAC00E720DD /* hippo.png */,
-				39E46E0B170D1CAC00E720DD /* lady.png */,
-				39E46E0C170D1CAC00E720DD /* loris.png */,
-				39E46E12170D1CAC00E720DD /* milayawn.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -258,19 +255,18 @@
 				39E46DEA170D1C7400E720DD /* Default.png in Resources */,
 				39E46DEC170D1C7400E720DD /* Default@2x.png in Resources */,
 				39E46DEE170D1C7400E720DD /* Default-568h@2x.png in Resources */,
-				39E46E1D170D1CAC00E720DD /* apple.png in Resources */,
-				39E46E21170D1CAC00E720DD /* dylan.png in Resources */,
-				39E46E23170D1CAC00E720DD /* frog.png in Resources */,
-				39E46E25170D1CAC00E720DD /* hidden.png in Resources */,
-				39E46E26170D1CAC00E720DD /* hippo.png in Resources */,
-				39E46E27170D1CAC00E720DD /* lady.png in Resources */,
-				39E46E28170D1CAC00E720DD /* loris.png in Resources */,
-				39E46E2C170D1CAC00E720DD /* milayawn.png in Resources */,
-				39E46E48170D1DBB00E720DD /* can.png in Resources */,
-				39E46E4C170D1DBB00E720DD /* emptycan.png in Resources */,
-				39E46E4D170D1DBB00E720DD /* entertainer.m4a in Resources */,
-				39E46E4F170D1DBB00E720DD /* fullcan.png in Resources */,
-				39E46E56170D1DBB00E720DD /* trash.png in Resources */,
+				39045690170DEF920031F28E /* apple.png in Resources */,
+				39045691170DEF920031F28E /* can.png in Resources */,
+				39045692170DEF920031F28E /* dylan.png in Resources */,
+				39045693170DEF920031F28E /* emptycan.png in Resources */,
+				39045694170DEF920031F28E /* entertainer.m4a in Resources */,
+				39045695170DEF920031F28E /* frog.png in Resources */,
+				39045696170DEF920031F28E /* fullcan.png in Resources */,
+				39045697170DEF920031F28E /* hidden.png in Resources */,
+				39045698170DEF920031F28E /* hiddenBadge.png in Resources */,
+				39045699170DEF920031F28E /* hippo.png in Resources */,
+				3904569A170DEF920031F28E /* lady.png in Resources */,
+				3904569B170DEF920031F28E /* trash.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,18 +279,18 @@
 			files = (
 				39E46DE4170D1C7400E720DD /* main.m in Sources */,
 				39E46DE8170D1C7400E720DD /* Apr4AppDelegate.m in Sources */,
-				39E46E18170D1CAC00E720DD /* Apple.m in Sources */,
-				39E46E19170D1CAC00E720DD /* Dylan.m in Sources */,
-				39E46E1A170D1CAC00E720DD /* Frog.m in Sources */,
-				39E46E1B170D1CAC00E720DD /* Hippo.m in Sources */,
-				39E46E1C170D1CAC00E720DD /* Lady.m in Sources */,
-				39E46E24170D1CAC00E720DD /* Hidden.m in Sources */,
-				39E46E4E170D1DBB00E720DD /* FullCan.m in Sources */,
-				39E46E55170D1DBB00E720DD /* PieceOfGarbage.m in Sources */,
-				39E46E57170D1DBB00E720DD /* TrashCan.m in Sources */,
-				39E46E5B170D1E8D00E720DD /* MemoryView.m in Sources */,
-				39E46E5E170D1F2E00E720DD /* GarbageManView.m in Sources */,
-				39E46E64170D211200E720DD /* Apr4ViewController.m in Sources */,
+				39045678170DEF6A0031F28E /* Apple.m in Sources */,
+				39045679170DEF6A0031F28E /* Apr4ViewController.m in Sources */,
+				3904567A170DEF6A0031F28E /* Dylan.m in Sources */,
+				3904567B170DEF6A0031F28E /* Frog.m in Sources */,
+				3904567C170DEF6A0031F28E /* FullCan.m in Sources */,
+				3904567D170DEF6A0031F28E /* GarbageManView.m in Sources */,
+				3904567E170DEF6A0031F28E /* Hidden.m in Sources */,
+				3904567F170DEF6A0031F28E /* Hippo.m in Sources */,
+				39045680170DEF6A0031F28E /* Lady.m in Sources */,
+				39045681170DEF6A0031F28E /* MemoryView.m in Sources */,
+				39045682170DEF6A0031F28E /* PieceOfGarbage.m in Sources */,
+				39045683170DEF6A0031F28E /* TrashCan.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

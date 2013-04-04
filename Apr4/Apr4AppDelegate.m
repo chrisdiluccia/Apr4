@@ -23,12 +23,14 @@
 		 
 		 [[Apr4ViewController alloc]
 		  initWithTitle: @"Memory Game"
+          image: [UIImage imageNamed: @"hiddenBadge.png"]
 		  badge: NULL
 		  view: [[MemoryView alloc] initWithFrame: f]
           ],
 		 
 		 [[Apr4ViewController alloc]
 		  initWithTitle: @"The Garbage Man"
+          image: [UIImage imageNamed: @"fullcan.png"]
 		  badge: NULL
 		  view: [[GarbageManView alloc] initWithFrame: f]
 		  ],
