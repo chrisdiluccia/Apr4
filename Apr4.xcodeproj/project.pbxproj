@@ -27,11 +27,11 @@
 		39045695170DEF920031F28E /* frog.png in Resources */ = {isa = PBXBuildFile; fileRef = 39045689170DEF920031F28E /* frog.png */; };
 		39045696170DEF920031F28E /* fullcan.png in Resources */ = {isa = PBXBuildFile; fileRef = 3904568A170DEF920031F28E /* fullcan.png */; };
 		39045697170DEF920031F28E /* hidden.png in Resources */ = {isa = PBXBuildFile; fileRef = 3904568B170DEF920031F28E /* hidden.png */; };
-		39045698170DEF920031F28E /* hiddenBadge.png in Resources */ = {isa = PBXBuildFile; fileRef = 3904568C170DEF920031F28E /* hiddenBadge.png */; };
 		39045699170DEF920031F28E /* hippo.png in Resources */ = {isa = PBXBuildFile; fileRef = 3904568D170DEF920031F28E /* hippo.png */; };
 		3904569A170DEF920031F28E /* lady.png in Resources */ = {isa = PBXBuildFile; fileRef = 3904568E170DEF920031F28E /* lady.png */; };
 		3904569B170DEF920031F28E /* trash.png in Resources */ = {isa = PBXBuildFile; fileRef = 3904568F170DEF920031F28E /* trash.png */; };
 		39393E33170D3B3F00FDFF79 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39393E32170D3B3F00FDFF79 /* CoreAudio.framework */; };
+		39446D08170DF6CF0076549F /* memoryBadge.png in Resources */ = {isa = PBXBuildFile; fileRef = 39446D07170DF6CF0076549F /* memoryBadge.png */; };
 		39E46DD8170D1C7400E720DD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39E46DD7170D1C7400E720DD /* UIKit.framework */; };
 		39E46DDA170D1C7400E720DD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39E46DD9170D1C7400E720DD /* Foundation.framework */; };
 		39E46DDC170D1C7400E720DD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39E46DDB170D1C7400E720DD /* CoreGraphics.framework */; };
@@ -41,6 +41,7 @@
 		39E46DEA170D1C7400E720DD /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 39E46DE9170D1C7400E720DD /* Default.png */; };
 		39E46DEC170D1C7400E720DD /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 39E46DEB170D1C7400E720DD /* Default@2x.png */; };
 		39E46DEE170D1C7400E720DD /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 39E46DED170D1C7400E720DD /* Default-568h@2x.png */; };
+		39FC801B170DF2AB0073B7EE /* fullcanBadge.png in Resources */ = {isa = PBXBuildFile; fileRef = 39FC801A170DF2AB0073B7EE /* fullcanBadge.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -76,11 +77,11 @@
 		39045689170DEF920031F28E /* frog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frog.png; sourceTree = "<group>"; };
 		3904568A170DEF920031F28E /* fullcan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fullcan.png; sourceTree = "<group>"; };
 		3904568B170DEF920031F28E /* hidden.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hidden.png; sourceTree = "<group>"; };
-		3904568C170DEF920031F28E /* hiddenBadge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hiddenBadge.png; sourceTree = "<group>"; };
 		3904568D170DEF920031F28E /* hippo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hippo.png; sourceTree = "<group>"; };
 		3904568E170DEF920031F28E /* lady.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lady.png; sourceTree = "<group>"; };
 		3904568F170DEF920031F28E /* trash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trash.png; sourceTree = "<group>"; };
 		39393E32170D3B3F00FDFF79 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		39446D07170DF6CF0076549F /* memoryBadge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = memoryBadge.png; sourceTree = "<group>"; };
 		39E46DD4170D1C7400E720DD /* Apr4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Apr4.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		39E46DD7170D1C7400E720DD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		39E46DD9170D1C7400E720DD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -94,6 +95,7 @@
 		39E46DE9170D1C7400E720DD /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		39E46DEB170D1C7400E720DD /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		39E46DED170D1C7400E720DD /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		39FC801A170DF2AB0073B7EE /* fullcanBadge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fullcanBadge.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,10 +144,12 @@
 		39E46DDD170D1C7400E720DD /* Apr4 */ = {
 			isa = PBXGroup;
 			children = (
-				39045660170DEF6A0031F28E /* Apple.h */,
-				39045661170DEF6A0031F28E /* Apple.m */,
+				39E46DE6170D1C7400E720DD /* Apr4AppDelegate.h */,
+				39E46DE7170D1C7400E720DD /* Apr4AppDelegate.m */,
 				39045662170DEF6A0031F28E /* Apr4ViewController.h */,
 				39045663170DEF6A0031F28E /* Apr4ViewController.m */,
+				39045660170DEF6A0031F28E /* Apple.h */,
+				39045661170DEF6A0031F28E /* Apple.m */,
 				39045664170DEF6A0031F28E /* Dylan.h */,
 				39045665170DEF6A0031F28E /* Dylan.m */,
 				39045666170DEF6A0031F28E /* Frog.h */,
@@ -166,8 +170,6 @@
 				39045675170DEF6A0031F28E /* PieceOfGarbage.m */,
 				39045676170DEF6A0031F28E /* TrashCan.h */,
 				39045677170DEF6A0031F28E /* TrashCan.m */,
-				39E46DE6170D1C7400E720DD /* Apr4AppDelegate.h */,
-				39E46DE7170D1C7400E720DD /* Apr4AppDelegate.m */,
 				39E46DDE170D1C7400E720DD /* Supporting Files */,
 			);
 			path = Apr4;
@@ -176,6 +178,8 @@
 		39E46DDE170D1C7400E720DD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				39446D07170DF6CF0076549F /* memoryBadge.png */,
+				39FC801A170DF2AB0073B7EE /* fullcanBadge.png */,
 				39045684170DEF920031F28E /* apple.png */,
 				39045685170DEF920031F28E /* can.png */,
 				39045686170DEF920031F28E /* dylan.png */,
@@ -184,7 +188,6 @@
 				39045689170DEF920031F28E /* frog.png */,
 				3904568A170DEF920031F28E /* fullcan.png */,
 				3904568B170DEF920031F28E /* hidden.png */,
-				3904568C170DEF920031F28E /* hiddenBadge.png */,
 				3904568D170DEF920031F28E /* hippo.png */,
 				3904568E170DEF920031F28E /* lady.png */,
 				3904568F170DEF920031F28E /* trash.png */,
@@ -263,10 +266,11 @@
 				39045695170DEF920031F28E /* frog.png in Resources */,
 				39045696170DEF920031F28E /* fullcan.png in Resources */,
 				39045697170DEF920031F28E /* hidden.png in Resources */,
-				39045698170DEF920031F28E /* hiddenBadge.png in Resources */,
 				39045699170DEF920031F28E /* hippo.png in Resources */,
 				3904569A170DEF920031F28E /* lady.png in Resources */,
 				3904569B170DEF920031F28E /* trash.png in Resources */,
+				39FC801B170DF2AB0073B7EE /* fullcanBadge.png in Resources */,
+				39446D08170DF6CF0076549F /* memoryBadge.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
